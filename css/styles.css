@@ -522,6 +522,7 @@ margin-bottom: 0;
 }
 
 .footer-block-address {
+    margin-right: 70px;
     flex-grow: 1;
 }
 
@@ -567,7 +568,9 @@ margin-bottom: 0;
 }
 
 /* Invintation */
-
+.footer-invitation {
+    margin-right: 93px;
+}
 
 .footer-invitation-title {
     margin-top: 0;
@@ -613,7 +616,6 @@ margin-bottom: 0;
 
 .footer-wrap {
     display: flex;
-    gap: 70px;
     align-items: baseline;
 }
 
@@ -806,6 +808,7 @@ margin-bottom: 0;
 
 
 .order-form {
+    padding: 40px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -814,7 +817,6 @@ margin-bottom: 0;
 }
 
 .order-title {
-    margin-top: 40px;
     margin-bottom: 12px;
     font-size: 20px;
     line-height: 23px;
@@ -827,8 +829,7 @@ margin-bottom: 0;
     display: block;
     margin-top: 0px;
     margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+
 }
 
 .order-text-field-label {
@@ -932,6 +933,7 @@ margin-bottom: 0;
 .order-checkbox-field-input:checked:focus + .checkbox-custom {
     box-shadow: inset 0px 0px 0px 2px var(--main-color);
 }
+
 
 
 .checkbox {
